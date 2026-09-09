@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "studentName": "Aarav Sharma",
+    "collegeId": "mit",
+    "collegeName": "MIT College of Engineering",
+    "slot": "10:30 AM"
+  },
+  {
+    "id": 2,
+    "studentName": "Diya Mehta",
+    "collegeId": "north",
+    "collegeName": "North Valley Campus",
+    "slot": "2:30 PM"
+  }
+]

@@ -1,0 +1,190 @@
+@media (max-width: 760px) {
+  .app-shell {
+    width: min(100% - 24px, 560px);
+    padding: 14px 0 28px;
+  }
+
+  .topbar {
+    position: relative;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 14px;
+    padding: 16px;
+    border-radius: 18px;
+  }
+
+  .brand-wrap {
+    gap: 10px;
+  }
+
+  .brand-mark {
+    width: 38px;
+    height: 38px;
+  }
+
+  .brand-wrap h2 {
+    font-size: 1.35rem;
+  }
+
+  .menu-toggle {
+    display: flex;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+
+  .nav {
+    display: none;
+    width: 100%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+    padding-top: 4px;
+  }
+
+  .nav.mobile-open {
+    display: grid;
+  }
+
+  .nav-link {
+    min-width: 68px;
+    padding: 9px 8px;
+    font-size: 0.9rem;
+  }
+
+  .header-actions {
+    width: 100%;
+  }
+
+  .header-actions .ghost-button {
+    flex: 1;
+  }
+
+  .page-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+  }
+
+  .hero-panel,
+  .booking-card {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .hero-panel {
+    padding: 30px 22px;
+  }
+
+  .hero-panel h1,
+  .page-heading h1 {
+    font-size: clamp(2.25rem, 12vw, 3.6rem);
+    letter-spacing: -0.045em;
+  }
+
+  .lead {
+    font-size: 0.98rem;
+    line-height: 1.55;
+  }
+
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    margin-top: 24px;
+  }
+
+  .stats-row button {
+    min-width: 0;
+    padding: 14px 10px;
+    border-radius: 14px;
+  }
+
+  .stats-row button strong {
+    font-size: 1.2rem;
+  }
+
+  .stats-row button span {
+    font-size: 0.7rem;
+  }
+
+  .booking-card {
+    padding: 22px 16px;
+  }
+
+  .card-head {
+    align-items: flex-start;
+  }
+
+  .card-head h3 {
+    max-width: 220px;
+    font-size: 1.05rem;
+  }
+
+  .slot-option {
+    min-height: 52px;
+    padding: 12px 13px;
+    font-size: 0.9rem;
+  }
+
+  .time-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .time-btn,
+  .primary-button,
+  .ghost-button,
+  .admin-row button,
+  .row-actions button {
+    min-height: 46px;
+  }
+
+  .page-heading {
+    margin: 34px 0 24px;
+    text-align: left;
+  }
+
+  .venue-grid,
+  .schedule-page-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .venue-card,
+  .schedule-slot {
+    border-radius: 18px;
+  }
+
+  .auth-overlay {
+    padding: 14px;
+  }
+
+  .auth-card {
+    padding: 28px 20px 22px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 390px) {
+  .app-shell {
+    width: min(100% - 16px, 560px);
+  }
+
+  .hero-panel {
+    padding: 26px 18px;
+  }
+
+  .badge-row {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .stats-row button strong {
+    font-size: 1.05rem;
+  }
+
+  .stats-row button span {
+    font-size: 0.64rem;
+  }
+}
