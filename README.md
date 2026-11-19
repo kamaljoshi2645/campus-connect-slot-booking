@@ -19,7 +19,7 @@ Demo accounts:
 
 Create a cluster and database user in MongoDB Atlas, add the deployment IP to Network Access, then set `MONGO_URI` in `.env` to the Atlas connection string. Set `MONGO_DB_NAME` to the database name you want to use.
 
-For production, also set a long random `JWT_SECRET`, `NODE_ENV=production`, and `CLIENT_ORIGIN` to the deployed frontend origin. Never commit `.env`.
+For production, also set a long random `JWT_SECRET`, `JWT_EXPIRES_IN` (for example `365d`), `NODE_ENV=production`, and `CLIENT_ORIGIN` to the deployed frontend origin. Never commit `.env`.
 
 ## Production
 

@@ -1,13 +1,15 @@
 :root {
-  font-family: Inter, 'Segoe UI', sans-serif;
+  font-family: 'Segoe UI', system-ui, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: #e2e8f0;
-  background:
-    radial-gradient(circle at top, rgba(99, 102, 241, 0.26), transparent 30%),
-    linear-gradient(135deg, #020817, #0f172a 45%, #111827);
-  background-size: 140% 140%;
-  animation: ambient-shift 18s ease-in-out infinite alternate;
+  color: #202824;
+  --forest: #123c35;
+  --emerald: #247a65;
+  --mint: #e5f3ed;
+  --cream: #f8f7f2;
+  --charcoal: #202824;
+  --muted: #6b7280;
+  background: #f8f7f2;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -24,13 +26,12 @@ html {
 
 body {
   margin: 0;
-  min-width: 320px;
   min-height: 100vh;
 }
 
 ::selection {
-  background: rgba(34, 211, 238, 0.35);
-  color: #fff;
+  background: rgba(36, 122, 101, 0.2);
+  color: #123c35;
 }
 
 button,
@@ -41,7 +42,7 @@ input {
 button:focus-visible,
 input:focus-visible,
 a:focus-visible {
-  outline: 2px solid #67e8f9;
+  outline: 2px solid #247a65;
   outline-offset: 3px;
 }
 
@@ -53,11 +54,8 @@ a {
   color: inherit;
 }
 
-@keyframes ambient-shift {
-  from {
-    background-position: 0% 0%;
-  }
-  to {
-    background-position: 100% 100%;
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }

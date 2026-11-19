@@ -59,6 +59,12 @@
     flex: 1;
   }
 
+  .bottom-nav {
+    width: 100%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
   .page-grid {
     display: flex;
     flex-direction: column;
@@ -106,6 +112,23 @@
 
   .stats-row button span {
     font-size: 0.7rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .hero-actions .primary-button,
+  .hero-secondary {
+    width: 100%;
+  }
+
+  .role-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .role-card {
+    padding: 22px;
   }
 
   .booking-card {

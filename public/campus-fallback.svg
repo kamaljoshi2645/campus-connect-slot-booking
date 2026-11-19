@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Illustrated university campus">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e5f3ed"/>
+      <stop offset="1" stop-color="#e8f1e9"/>
+    </linearGradient>
+    <linearGradient id="building" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#e5f3ed"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <circle cx="950" cy="155" r="72" fill="#fff" opacity=".8"/>
+  <path d="M0 595c190-90 330-83 493-15 194 81 387 50 707-63v283H0z" fill="#cfe4d5"/>
+  <path d="m248 333 352-184 352 184v42H248z" fill="#247a65"/>
+  <path d="M292 370h616v284H292z" fill="url(#building)"/>
+  <path d="M527 486h146v168H527z" fill="#123c35"/>
+  <path d="M344 414h112v98H344zm400 0h112v98H744z" fill="#b8d9c8"/>
+  <path d="M359 437h82m-82 21h82m318-21h82m-82 21h82" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round"/>
+  <path d="M478 370v284m244-284v284" fill="none" stroke="#c7ddce" stroke-width="12"/>
+  <path d="M485 664h230" fill="none" stroke="#247a65" stroke-width="17" stroke-linecap="round"/>
+  <path d="M153 654v-122m0 43c-57-53-82 4 0 28 51-61 88-10 0 23m894 28V514m0 50c-57-53-82 4 0 28 51-61 88-10 0 23" fill="none" stroke="#78916f" stroke-width="20" stroke-linecap="round"/>
+  <path d="M115 662h75m820 0h75" fill="none" stroke="#66805e" stroke-width="24" stroke-linecap="round"/>
+</svg>
